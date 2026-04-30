@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Up - Resultado</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+<div class="resultado-avatar">
+    <img id="avatar-final" src="" alt="Seu Avatar">
+</div>
+
+<script>
+    // Quando a página carregar...
+    window.onload = function() {
+        // 1. Busca o caminho que salvamos na outra página
+        const fotoSalva = localStorage.getItem('avatarEscolhido');
+
+        // 2. Se existir uma foto salva, coloca ela no <img>
+        if (fotoSalva) {
+            document.getElementById('avatar-final').src = fotoSalva;
+        }
+    };
+</script>
+
+
+
+    <div class="app-container">
+        <div class="result-card">
+            <h3>Serviços Selecionados</h3>
+            <div id="lista-final">
+                </div>
+        </div>
+
+        <div class="achievement-card">
+            <div class="trophy-icon">🏆</div>
+            <h4>Conquista Desbloqueada!</h4>
+            <p>Glow Starter - Primeira personalização</p>
+        </div>
+
+     <button class="btn-agendar" onclick="irParaFormulario()">
+    <span class="icon-cal">📅</span> Agendar Meu Glow
+</button>
+    </div>
+
+   <script>
+    // 1. O código de carregar a lista deve ficar dentro do DOMContentLoaded
+    document.addEventListener("DOMContentLoaded", () => {
+        const dados = localStorage.getItem('meusServicos');
+        const lista = document.getElementById('lista-final');
+
+        if (dados && lista) {
+            const servicos = JSON.parse(dados);
+            servicos.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'item-selecionado';
+                div.innerHTML = `
+                    <span>${item.nome}</span>
+                    <strong>R$ ${item.preco}</strong>
+                `;
+                lista.appendChild(div);
+            });
+        }
+    });
+
+    // 2. A função de redirecionar deve estar FORA do DOMContentLoaded
+    function irParaFormulario() {  
+        window.location.href = "pag5.html";
+    }
+</script>
+</body>
+</html>
+
+      

@@ -1,0 +1,28 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOW UP STUDIO</title>
+    <link rel="stylesheet" href="style2.css"> </head>
+
+<body>  
+    
+<header>
+    <h1>Crie seu Avatar</h1>
+    <p>Personalize suas características</p>
+</header>
+
+    <div class="carousel-container">
+        <h2>Escolha seu Estilo</h2>
+        <div class="carousel-main">
+            <button class="nav-btn" onclick="mudarAvatar(-1)">&#10094;</button>
+            <div class="avatar-frame">
+                <img id="avatar-atual" src="img/avatar1.jpg" alt="Avatar">
+            </div>
+            <button class="nav-btn" onclick="mudarAvatar(1)">&#10095;</button>
+        </div>
+         <button class="btn-confirmar" onclick="selecionarAvatar()">Selecionar Este</button>
+        <p id="indicador">Avatar 1 de 20</p>
+    </div>
+    <script src="style.js"></script>
+</body>     
+</html>

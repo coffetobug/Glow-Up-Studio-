@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+    background-color: #DCAFAC;
+
+    margin: 0;
+    padding: 0;
+    width: 100vw;       /* Largura total da tela */
+    height: 100vh;      /* Altura total da tela */
+    display: flex;      /* Ativa o modo Flexbox */
+    flex-direction: column; /* Coloca um item embaixo do outro */
+    justify-content: center; /* Centraliza na vertical */
+    align-items: center;     /* Centraliza na horizontal */
+    text-align: center;      /* Garante que o texto interno também alinhe */
+    color: white;            /* Cor do texto */
+    font-family: sans-serif;
+}
+h1{
+    color: #722F37;
+    font-size: 40px;
+}
+p{
+    color: #722F37;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+/*BOTÃO*/
+.botao{
+    /* Estrutura */
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    
+    /* Cores e Estilo */
+    background: linear-gradient(45deg, #722F37, #722F37);
+    color: white;
+    text-decoration: none; /* Tira o sublinhado de link */
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 50px; /* Deixa o botão arredondado */
+    
+    /* Efeitos de Animação */
+    transition: 0.4s;
+    box-shadow: 0 0 15px #722F37;
+}
+
+.botao:hover {
+    transform: translateY(-3px); /* Faz o botão "subir" levemente */
+    box-shadow: 0 0 25px #DCAFAC;
+    letter-spacing: 1px; /* Espaça um pouco as letras */
+}
+
+
+/* Container Principal - Alinha os 3 cartões na horizontal */
+.menu-servicos {
+    display: flex;
+    justify-content: center; /* Centraliza o menu na tela */
+    gap: 40px;             /* Espaço entre um ícone e outro */
+    margin-top: 50px;      /* Distância do botão de cima */
+    font-family: Arial, sans-serif; /* Fonte igual à da imagem */
+}
+
+/* Alinha o círculo e a legenda na vertical */
+.card-servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza a legenda com o círculo */
+    width: 100px;        /* Garante tamanho uniforme */
+}
+
+/* Estilo do Círculo Branco com Sombra */
+.circulo-icone {
+    width: 80px;            /* Tamanho do círculo branco */
+    height: 80px;
+    background-color: white; /* Fundo branco */
+    border-radius: 50%;      /* Deixa redondo */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem no meio */
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave idêntica à foto */
+    margin-bottom: 10px;    /* Espaço entre o círculo e a legenda */
+}
+
+/* Estilo da Imagem dentro do Círculo */
+.circulo-icone img {
+    width: 99%;           /* A imagem ocupa 60% do círculo */
+    height: auto;
+    object-fit: contain;  /* Mantém a proporção sem cortar */
+    border-radius: 35px;
+}
+
+/* Estilo da Legenda */
+.legenda-icone {
+    margin: 0;
+    font-size: 14px;
+    color: #4a4a4a; /* Cor cinza escuro igual à foto */
+    font-weight: normal;
+}
+
+

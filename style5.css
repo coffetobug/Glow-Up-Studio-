@@ -1,0 +1,102 @@
+body {
+    background-color: #e3a2af;
+    display: flex; /* Centraliza o formulário na tela */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    margin-top: 45px;
+}
+
+#form-agenda {
+    background: rgb(233, 190, 190);
+    padding: 40px;
+    border-radius: 35px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px; /* Largura máxima do formulário branco */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 19px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row; /* Coloca label e input lado a lado */
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content:空间-between; /* Empurra o label para a esquerda e input para a direita */
+    text-align: left;
+    margin-top:  5px;
+}
+
+label {
+    color: #722F37;
+    font-weight: bold;
+    flex: 1; /* Faz o label ocupar o espaço necessário */
+}
+
+input {
+    padding: 12px;
+    border: 2px solid #F8EFEA;
+    border-radius: 15px;
+    outline: none;
+    width: 200px; /* Tamanho fixo para as caixas ficarem alinhadas */
+    text-align: center;
+    margin: 20px
+}
+
+input:focus {
+    border-color: #9B3E51;
+}
+
+.botão {
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.btn-enviar {
+    background: #9B3E51;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Limpar {
+    background: #f0f0f0;
+    color: #9B3E51;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top:180px;
+}
+
+.titulo.form{
+    color:#722F37;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 25px;
+  
+
+}
+
+h2{
+    color: #722F37;
+    text-align: center;
+    font-size: 35px
+}

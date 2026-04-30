@@ -1,0 +1,193 @@
+body {
+    background-color: #FDF5F0; /* Cor de fundo creme */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Card Branco dos Serviços */
+.result-card {
+    background: white;
+    border-radius: 35px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+}
+
+.result-card h3 {
+    color: #722F37;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.item-selecionado {
+    background: #F8EFEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #722F37;
+}
+
+/* Card Bordô da Conquista */
+.achievement-card {
+    background: #9B3E51;
+    color: white;
+    border-radius: 35px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.trophy-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.achievement-card h4 {
+    margin: 5px 0;
+    font-size: 22px;
+}
+
+.achievement-card p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Botão Agendar */
+.btn-agendar {
+    width: 100%;
+    background: #9B3E51;
+    color: white;
+    border: none;
+    padding: 18px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-agendar:hover {
+    filter: brightness(1.1);
+}
+
+body {
+    background-color: #FDF5F0; /* Cor de fundo creme */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Card Branco dos Serviços */
+.result-card {
+    background: white;
+    border-radius: 35px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+}
+
+.result-card h3 {
+    color: #722F37;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.item-selecionado {
+    background: #F8EFEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #722F37;
+}
+
+/* Card Bordô da Conquista */
+.achievement-card {
+    background: #9B3E51;
+    color: white;
+    border-radius: 35px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.trophy-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.achievement-card h4 {
+    margin: 5px 0;
+    font-size: 22px;
+}
+
+.achievement-card p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Botão Agendar */
+.btn-agendar {
+    width: 100%;
+    background: #9B3E51;
+    color: white;
+    border: none;
+    padding: 18px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-agendar:hover {
+    filter: brightness(1.1);
+}
+
+
+/*Avatar*/
+.resultado-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#avatar-final {
+    width: 300px;         /* Ajuste o tamanho aqui */
+    height: 300px;        /* Mantenha igual ao width */
+    border-radius: 50%;   /* Se quiser que continue circular */
+    border: 8px solid #ffffff; /* Cor que você está usando no Glow Up */
+    object-fit: cover;    /* Não deixa a imagem esticar */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/*Body*/
+body{
+    background-color: #e3a2af;
+    padding-top: 100px;
+}

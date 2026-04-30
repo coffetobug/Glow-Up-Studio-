@@ -1,0 +1,122 @@
+body{
+    text-align:left;
+    margin: 0;
+    padding: 0;
+          /* Garante que o texto interno também alinhe */
+    color: #722F37;            /* Cor do texto */
+    font-family: sans-serif;
+    background: #cd9793;
+    font-family: Arial, sans-serif;
+}
+
+
+
+h1{
+     padding: 20PX;
+    margin-top: 20PX;
+}
+
+
+header{
+    text-align: center;
+    color: #722F37;
+}
+
+p{
+    font-size: 17px;
+    margin: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/**PAGINA 03*/
+.resultado-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#avatar-final {
+    width: 300px;         /* Ajuste o tamanho aqui */
+    height: 300px;        /* Mantenha igual ao width */
+    border-radius: 50%;   /* Se quiser que continue circular */
+    border: 8px solid #ffffff; /* Cor que você está usando no Glow Up */
+    object-fit: cover;    /* Não deixa a imagem esticar */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Container Principal */
+.app-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Cor de fundo creme da foto */
+    min-height:  00vh;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+/* Menu de Categorias */
+.category-menu {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.cat-btn {
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #722F37;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    white-space: nowrap;
+}
+
+.cat-btn.active {
+    background: #9B3E51;
+    color: rgb(255, 255, 255);
+}
+
+/* Cards de Serviço */
+.service-item {
+    background: rgb(255, 255, 255);
+    margin-bottom: 12px;
+    padding: 18px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.service-item.selected {
+    background: #9B3E51;
+    color: white;
+}
+
+.service-info strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+/* Botão Ver Resultado */
+.btn-resultado {
+    width: 100%;
+    background: #9B3E51;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}

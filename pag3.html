@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOW UP STUDIO</title>
+
+     <!--LINK CSS-->
+    <link rel="stylesheet" href="style3.css">
+     <!-- JavaScript -->
+    <script src="style.js"></script>
+</head>
+
+<body>
+<div class="resultado-avatar">
+    <img id="avatar-final" src="" alt="Seu Avatar">
+</div>
+
+<script>
+    // Quando a página carregar...
+    window.onload = function() {
+        // 1. Busca o caminho que salvamos na outra página
+        const fotoSalva = localStorage.getItem('avatarEscolhido');
+
+        // 2. Se existir uma foto salva, coloca ela no <img>
+        if (fotoSalva) {
+            document.getElementById('avatar-final').src = fotoSalva;
+        }
+    };
+</script>
+  
+
+<div class="app-container">
+    <div class="category-menu">
+        <button class="cat-btn active" onclick="trocarCategoria('cabelo', this)">CABELO</button>
+        <button class="cat-btn" onclick="trocarCategoria('unhas', this)">UNHAS</button>
+        <button class="cat-btn" onclick="trocarCategoria('sobrancelhas', this)">SOBRANCELHAS</button>
+    </div>
+
+    <div id="lista-servicos" class="services-container">
+        </div>
+
+    <div class="footer-action">
+        <button class="btn-resultado" onclick="irParaResultado()">Ver Resultado</button>
+    </div>
+</div>
+</body>
+</html>
