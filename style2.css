@@ -9,9 +9,6 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.btn-confirma{
-    background:#cd9793;
-}
 
 h1{
      padding: 20PX;
@@ -114,10 +111,12 @@ input[type="color"] {
     transform: scale(1.1);
 }
 
+
+
 .btn-confirmar {
     margin-top: 20px;
     padding: 12px 30px;
-    background: #03dac6;
+    background: #3700b3;
     border: none;
     border-radius: 25px;
     font-weight: bold;
