@@ -9,7 +9,9 @@ body{
     font-family: Arial, sans-serif;
 }
 
-
+.btn-confirma{
+    background:#cd9793;
+}
 
 h1{
      padding: 20PX;
