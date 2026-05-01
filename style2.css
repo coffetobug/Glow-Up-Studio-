@@ -91,7 +91,7 @@ input[type="color"] {
 }
 
 .nav-btn {
-    background: #6200ee;
+    background: #722F37;
     color: white;
     border: none;
     font-size: 24px;
@@ -107,7 +107,7 @@ input[type="color"] {
 }
 
 .nav-btn:hover {
-    background: #3700b3;
+    background: #722F37;
     transform: scale(1.1);
 }
 
@@ -116,11 +116,12 @@ input[type="color"] {
 .btn-confirmar {
     margin-top: 20px;
     padding: 12px 30px;
-    background: #3700b3;
+    background: #722F37;
     border: none;
     border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
+    color:white;
 }
 
 header{
