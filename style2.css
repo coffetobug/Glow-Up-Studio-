@@ -10,6 +10,7 @@ body{
 }
 
 
+
 h1{
      padding: 20PX;
     margin-top: 20PX
@@ -111,8 +112,6 @@ input[type="color"] {
     transform: scale(1.1);
 }
 
-
-
 .btn-confirmar {
     margin-top: 20px;
     padding: 12px 30px;
@@ -121,7 +120,7 @@ input[type="color"] {
     border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
-    color:white;
+    color: white;
 }
 
 header{
