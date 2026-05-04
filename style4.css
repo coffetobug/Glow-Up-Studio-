@@ -1,68 +1,75 @@
+/* 1. Reset e Configuração Base */
 body {
-    background-color: #FDF5F0; /* Cor de fundo creme */
+    background-color: #e3a2af; /* Cor rosada das imagens */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
     margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alinha tudo em coluna */
+    align-items: center;    /* Centraliza horizontalmente */
+    min-height: 100vh;
 }
 
+/* 2. Container que segura todos os cards */
 .app-container {
     width: 100%;
     max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Card Branco dos Serviços */
+/* 3. Avatar (Centralizado acima do painel) */
+.resultado-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espaço entre foto e o card branco */
+}
+
+#avatar-final {
+    width: 220px; 
+    height: 220px;
+    border-radius: 50%;
+    border: 8px solid #ffffff;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* 4. Card Branco de Serviços */
 .result-card {
     background: white;
     border-radius: 35px;
     padding: 25px;
+    width: 100%; /* Ocupa a largura total do app-container */
+    box-sizing: border-box;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    margin-bottom: 25px;
-}
-
-.result-card h3 {
-    color: #722F37;
-    margin-top: 0;
-    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .item-selecionado {
     background: #F8EFEA;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 15px 20px;
     border-radius: 20px;
     margin-bottom: 10px;
     color: #722F37;
 }
 
-/* Card Bordô da Conquista */
+/* 5. Card de Conquista */
 .achievement-card {
     background: #9B3E51;
     color: white;
     border-radius: 35px;
     padding: 30px;
     text-align: center;
-    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
-.trophy-icon {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-.achievement-card h4 {
-    margin: 5px 0;
-    font-size: 22px;
-}
-
-.achievement-card p {
-    font-size: 14px;
-    opacity: 0.9;
-}
-
-/* Botão Agendar */
+/* 6. Botão Final */
 .btn-agendar {
     width: 100%;
     background: #9B3E51;
@@ -72,7 +79,6 @@ body {
     border-radius: 40px;
     font-size: 18px;
     font-weight: bold;
-    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,23 +198,5 @@ body{
     padding-top: 100px;
 }
 
-/* Configuração para celulares */
-@media (max-width: 768px) {
-  .container-principal { /* Use a classe que engloba sua foto e a lista */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 
-  .lista-servicos {
-    width: 90%; /* Ajusta a largura para não cortar nas bordas */
-    margin: 20px auto;
-  }
-  
-  .input-group { /* Para os campos de agendamento */
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
 }
