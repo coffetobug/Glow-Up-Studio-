@@ -99,4 +99,24 @@ p{
     font-weight: normal;
 }
 
+/* Quando a tela for menor que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    background-color: lightgrey;
+  }
+  
+  .menu {
+    display: block; /* Transforma o menu horizontal em vertical */
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Faz os itens "pularem" para a linha de baixo se não couberem */
+}
+
+.item {
+  flex: 1 1 300px; /* O item tenta ter 300px, mas cresce ou diminui conforme necessário */
+}
+
 
