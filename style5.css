@@ -1,5 +1,5 @@
 body {
-    background-color: #e3a2af;
+    background-color: #DCAE96;
     display: flex; /* Centraliza o formulário na tela */
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ body {
 }
 
 label {
-    color: #722F37;
+    color: #67041F;
     font-weight: bold;
     flex: 1; /* Faz o label ocupar o espaço necessário */
 }
@@ -49,7 +49,7 @@ input {
 }
 
 input:focus {
-    border-color: #9B3E51;
+    border-color: #67041F;
 }
 
 .botão {
@@ -71,7 +71,7 @@ input:focus {
 }
 
 .btn-enviar {
-    background: #9B3E51;
+    background: #67041F;
     color: white;
     border: none;
     padding: 10px 55px;
@@ -83,7 +83,7 @@ input:focus {
 
 #Limpar {
     background: #f0f0f0;
-    color: #9B3E51;
+    color: #67041F;
     border: none;
     padding: 10px 55px;
     border-radius: 30px;
@@ -96,7 +96,7 @@ input:focus {
 
 
 .titulo.form{
-    color:#722F37;
+    color:#67041F;
     text-align: center;
     width: 100%;
     margin-top: 0;
@@ -107,7 +107,7 @@ input:focus {
 }
 
 h2{
-    color: #722F37;
+    color: #67041F;
     text-align: center;
     font-size: 30px
 }
