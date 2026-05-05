@@ -58,6 +58,14 @@ input:focus {
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 0;
     
 }
 
@@ -81,8 +89,10 @@ input:focus {
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
-    margin-top:120px;
+    margin-top:10px 0 0 0;
+    width: auto;
 }
+
 
 .titulo.form{
     color:#722F37;
