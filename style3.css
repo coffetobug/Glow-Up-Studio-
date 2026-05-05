@@ -3,9 +3,9 @@ body{
     margin: 0;
     padding: 0;
           /* Garante que o texto interno também alinhe */
-    color: #722F37;            /* Cor do texto */
+    color: #67041F;            /* Cor do texto */
     font-family: sans-serif;
-    background: #cd9793;
+    background: #DCAE96;
     font-family: Arial, sans-serif;
 }
 
@@ -19,7 +19,7 @@ h1{
 
 header{
     text-align: center;
-    color: #722F37;
+    color: #67041F; 
 }
 
 p{
@@ -71,14 +71,14 @@ p{
     padding: 10px 25px;
     border-radius: 25px;
     font-weight: bold;
-    color: #722F37;
+    color: #67041F; 
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     white-space: nowrap;
 }
 
 .cat-btn.active {
-    background: #9B3E51;
+    background: #67041F; 
     color: rgb(255, 255, 255);
 }
 
@@ -97,7 +97,7 @@ p{
 }
 
 .service-item.selected {
-    background: #9B3E51;
+    background: #67041F; 
     color: white;
 }
 
@@ -110,7 +110,7 @@ p{
 /* Botão Ver Resultado */
 .btn-resultado {
     width: 100%;
-    background: #9B3E51;
+    background: #67041F; 
     color: white;
     border: none;
     padding: 15px;
