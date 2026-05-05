@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     gap: 15px;
     font-size: 16px; /*alterei*/
+    padding-left: 60px;
 }
 
 .form-group {
