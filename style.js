@@ -27,8 +27,14 @@ const bancoServicos = {
     cabelo: [
         { nome: "Corte Feminino", preco: 90 },
         { nome: "Corte Masculino", preco: 50 },
-        { nome: "Escova Simples", preco: 50 },
-        { nome: "Progressiva", preco: 250 }
+        { nome: "Escova", preco: 50 },
+        { nome: "Progressiva", preco: 250 },
+        {nome:"Escova Simples", preco: 50 },
+        {nome:"Coloração", preco: 150 },
+        {nome:"Luzes/Mechas", preco: 300 },
+        {nome:"Cronograma Capilar", preco: 130 },
+        {nome:"Reconstrução", preco: 90 },
+        {nome:"Hidratação", preco: 70 }
     ],
     unhas: [
         { nome: "Manicure", preco: 35 },
@@ -38,8 +44,25 @@ const bancoServicos = {
     ],
     sobrancelhas: [
         { nome: "Design Simples", preco: 35 },
-        { nome: "Design com Henna", preco: 55 }
+        { nome: "Design com Henna", preco: 60 },
+        { nome: "Cílios a Fio a Fio", preco: 120 },
+        { nome: "Manutenção Cilios", preco: 90 },
+        { nome: "Lash lifting", preco: 90 },
+        { nome: "Brow Lamination", preco: 90 },
+        { nome: "Volume Russo", preco: 80 }
+
+    ],
+    pacotesglow:[
+        { nome:"Dia de Glow (cabelo+unha)", preco:130 },
+        { nome:"Glow Express", preco:65 },
+        { nome:"Glow Completo", preco:180 },
+        { nome:"Glow Noiva", preco:"(Consultar)" }
+    ],
+    maquiagem:[
+          { nome:"Maquiagem Simples", preco: 80 },
+          { nome:"Maquiagem Profissional", preco: 120 },
     ]
+
 };
 
 // --- FUNÇÃO DE CATEGORIA (UNIFICADA) ---
