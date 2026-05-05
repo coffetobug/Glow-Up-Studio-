@@ -11,15 +11,15 @@ body {
 
 #form-agenda {
     background: rgb(233, 190, 190);
-    padding: 40px;
-    border-radius: 35px;
+    padding: 60px;
+    border-radius: 45px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     width: 100%;
     max-width: 500px; /* Largura máxima do formulário branco */
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .form-group {
