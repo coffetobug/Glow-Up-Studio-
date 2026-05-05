@@ -1,6 +1,6 @@
 /* 1. Reset e Configuração Base */
 body {
-    background-color: #e3a2af; /* Cor rosada das imagens */
+    background-color: #DCAE96; /* Cor rosada das imagens */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
@@ -54,12 +54,12 @@ body {
     padding: 15px 20px;
     border-radius: 20px;
     margin-bottom: 10px;
-    color: #722F37;
+    color: #67041F;
 }
 
 /* 5. Card de Conquista */
 .achievement-card {
-    background: #9B3E51;
+    background: #67041F;
     color: white;
     border-radius: 35px;
     padding: 30px;
@@ -72,7 +72,7 @@ body {
 /* 6. Botão Final */
 .btn-agendar {
     width: 100%;
-    background: #9B3E51;
+    background: #67041F;
     color: white;
     border: none;
     padding: 18px;
@@ -113,7 +113,7 @@ body {
 }
 
 .result-card h3 {
-    color: #722F37;
+    color: #67041F;
     margin-top: 0;
     font-size: 20px;
 }
@@ -125,12 +125,12 @@ body {
     padding: 15px 20px;
     border-radius: 20px;
     margin-bottom: 10px;
-    color: #722F37;
+    color: #67041F;
 }
 
 /* Card Bordô da Conquista */
 .achievement-card {
-    background: #9B3E51;
+    background: #67041F;
     color: white;
     border-radius: 35px;
     padding: 30px;
@@ -156,7 +156,7 @@ body {
 /* Botão Agendar */
 .btn-agendar {
     width: 100%;
-    background: #9B3E51;
+    background: #67041F;
     color: white;
     border: none;
     padding: 18px;
@@ -194,7 +194,7 @@ body {
 
 /*Body*/
 body{
-    background-color: #e3a2af;
+    background-color: #DCAE96;
     padding-top: 100px;
 }
 
@@ -202,18 +202,18 @@ body{
 #total-container {
     margin-top: 20px;
     padding-top: 15px;
-    border-top: 2px dashed #e3a2af; /* Linha pontilhada para separar */
+    border-top: 2px dashed #DCAE96; /* Linha pontilhada para separar */
 }
 
 .total-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #722F37;
+    color: #67041F;
     font-size: 1.2rem;
 }
 
 .total-box strong {
     font-size: 1.5rem;
-    color: #9B3E51; /* Cor bordô para destacar o valor */
+    color: #67041F; /* Cor bordô para destacar o valor */
 }
