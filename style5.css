@@ -11,15 +11,15 @@ body {
 
 #form-agenda {
     background: rgb(233, 190, 190);
-    padding: 60px;
-    border-radius: 45px;
+    padding: 60px;  /*alterei*/
+    border-radius: 45px;/*alterei*/
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     width: 100%;
     max-width: 500px; /* Largura máxima do formulário branco */
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-size: 16px;
+    font-size: 16px; /*alterei*/
 }
 
 .form-group {
@@ -65,7 +65,7 @@ input:focus {
     background: #9B3E51;
     color: white;
     border: none;
-    padding: 12px 55px;
+    padding: 10px 55px;
     border-radius: 30px;
     font-weight: bold;
     cursor: pointer;
@@ -76,12 +76,12 @@ input:focus {
     background: #f0f0f0;
     color: #9B3E51;
     border: none;
-    padding: 12px 55px;
+    padding: 10px 55px;
     border-radius: 30px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
-    margin-top:180px;
+    margin-top:120px;
 }
 
 .titulo.form{
@@ -100,4 +100,3 @@ h2{
     text-align: center;
     font-size: 35px
 }
-
