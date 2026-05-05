@@ -75,12 +75,13 @@ input[type="color"] {
 }
 
 .avatar-frame {
-     width: 300px;         /* Ajuste o tamanho aqui */
-    height: 300px;        /* Mantenha igual ao width */
-    border-radius: 50%;   /* Se quiser que continue circular */
-    border: 8px solid #ffffff; /* Cor que você está usando no Glow Up */
-    object-fit: cover;    /* Não deixa a imagem esticar */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    background-color: white;
 }
 
 .avatar-frame img {
