@@ -198,3 +198,22 @@ body{
     padding-top: 100px;
 }
 
+/* Estilo para o Total */
+#total-container {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 2px dashed #e3a2af; /* Linha pontilhada para separar */
+}
+
+.total-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #722F37;
+    font-size: 1.2rem;
+}
+
+.total-box strong {
+    font-size: 1.5rem;
+    color: #9B3E51; /* Cor bordô para destacar o valor */
+}
