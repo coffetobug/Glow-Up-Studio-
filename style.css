@@ -16,8 +16,7 @@ body{
 }
 h1{
     color: #722F37;
-    font-size: 35px;
-    font-family:arial;
+    font-size: 40px;
 }
 p{
     color: #722F37;
@@ -98,9 +97,3 @@ p{
     color: #4a4a4a; /* Cor cinza escuro igual à foto */
     font-weight: normal;
 }
-
-:root{
-color-scheme:light;
-}
-
-
