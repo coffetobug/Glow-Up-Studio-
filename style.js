@@ -123,29 +123,35 @@ function irParaResultado() {
     // Salva a lista no LocalStorage para a Pagina 4 ler
     localStorage.setItem('meusServicos', JSON.stringify(servicosSelecionados));
     window.location.href = "pag4.html";
-}
+}document.addEventListener("DOMContentLoaded", () => {
+    // Busca os campos na página atual
+    const campoServicos = document.getElementById('servicos-hidden');
+    const campoTotal = document.getElementById('total-hidden');
 
-// Função para preparar os dados do formulário na pag5
-document.addEventListener("DOMContentLoaded", () => {
-    // 1. Tenta encontrar o campo de serviços
-    const campoServicos = document.getElementById('servicos-input');
-    
-    // Só executa o código se o campo existir na página atual (evita erro em outras páginas)
-    if (campoServicos) {
+    // Se encontrar os campos (significa que estamos na pag5)
+    if (campoServicos && campoTotal) {
         const dadosSalvos = localStorage.getItem('meusServicos');
-        
+
         if (dadosSalvos) {
-            try {
-                const servicos = JSON.parse(dadosSalvos);
-                // Transforma a lista de objetos em um texto único
-                const resumoTexto = servicos.map(s => `${s.nome} (R$ ${s.preco})`).join(" | ");
-                
-                // Coloca o texto no campo invisível
-                campoServicos.value = resumoTexto;
-                console.log("Serviços prontos para envio!");
-            } catch (erro) {
-                console.error("Erro ao ler os serviços do localStorage:", erro);
-            }
+            const servicos = JSON.parse(dadosSalvos);
+            
+            // Cria o texto dos serviços
+            const resumoNomes = servicos.map(s => s.nome).join(", ");
+            
+            // Calcula o total
+            let valorTotal = 0;
+            servicos.forEach(s => {
+                if (typeof s.preco === 'number') {
+                    valorTotal += s.preco;
+                }
+            });
+
+            // AQUI É ONDE A MÁGICA ACONTECE:
+            // Atribui os valores aos inputs que o Formspree vai ler
+            campoServicos.value = resumoNomes;
+            campoTotal.value = "R$ " + valorTotal.toFixed(2);
+            
+            console.log("Campos preenchidos com sucesso!"); 
         }
     }
 });
