@@ -77,7 +77,7 @@ input[type="color"] {
 .avatar-frame {
      width: 300px;         /* Ajuste o tamanho aqui */
     height: 300px;        /* Mantenha igual ao width */
-    border-radius: 10%;   /* Se quiser que continue circular */
+    border-radius: 50%;   /* Se quiser que continue circular */
     border: 8px solid #ffffff; /* Cor que você está usando no Glow Up */
     object-fit: cover;    /* Não deixa a imagem esticar */
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
@@ -87,7 +87,7 @@ input[type="color"] {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10%;   /* Se quiser que continue circular */
+    border-radius: 50%;   /* Se quiser que continue circular */
 }
 
 .nav-btn {
