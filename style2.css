@@ -3,9 +3,9 @@ body{
     margin: 0;
     padding: 0;
           /* Garante que o texto interno também alinhe */
-    color: #722F37;            /* Cor do texto */
+    color: #67041F;            /* Cor do texto */
     font-family: sans-serif;
-    background: #cd9793;
+    background: #DCAE96;
     font-family: Arial, sans-serif;
 }
 
@@ -97,7 +97,7 @@ input[type="color"] {
 }
 
 .nav-btn {
-    background: #722F37;
+    background: #67041F;
     color: white;
     border: none;
     font-size: 24px;
@@ -113,14 +113,14 @@ input[type="color"] {
 }
 
 .nav-btn:hover {
-    background: #722F37;
+    background: #67041F;
     transform: scale(1.1);
 }
 
 .btn-confirmar {
     margin-top: 20px;
     padding: 12px 30px;
-    background: #722F37;
+    background: #67041F;
     border: none;
     border-radius: 25px;
     font-weight: bold;
@@ -130,7 +130,7 @@ input[type="color"] {
 
 header{
     text-align: center;
-    color: #722F37;
+    color: #67041F;
 }
 
 p{
